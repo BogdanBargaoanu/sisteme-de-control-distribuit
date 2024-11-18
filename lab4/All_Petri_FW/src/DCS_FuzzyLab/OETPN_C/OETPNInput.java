@@ -8,7 +8,7 @@ import java.nio.file.Files;
 //For OETPN-c 
 public class OETPNInput {
 	public static void main(String[] args) throws InterruptedException, IOException {
-		File file = new File("D:\\PetriInputData\\OETPNInput.txt");
+		File file = new File("E:\\facultate\\sisteme de control distribuit\\sisteme-de-control-distribuit\\lab4\\OETPNInput.txt");
 		Files.deleteIfExists(file.toPath());
 		FileWriter fw = new FileWriter(file.getPath());
 		Float command = 0.55F;
