@@ -5,4 +5,14 @@ public class ResourceManager implements IResourceManager{
     public Resource getResource() {
         return null;
     }
+
+    @Override
+    public void AllowTask(Task task) {
+
+    }
+
+    @Override
+    public void RevokeTask(Task task) {
+
+    }
 }
